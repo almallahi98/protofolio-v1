@@ -4,7 +4,7 @@ import Skill from "./skill";
 
 function SkillList() {
     return (
-        <div className="p-6 bg-zinc-900">
+        <div className="p-6 bg-[#4f4f4f]">
             <div>
                 <HeaderText text="skills" />
             </div>
