@@ -1,9 +1,13 @@
 import React from 'react'
+import Hero from './hero/Hero'
+import SkillList from './skills/SkillList'
 
 function Home() {
   return (
-    <div className='container'>
-        <p className='text-green-600 text-center text-4xlx'>home page </p>
+    <div className='bg-bg-gradient-prim pt-14'>
+      <Hero/>
+      <SkillList/>
+      
     </div>
   )
 }
