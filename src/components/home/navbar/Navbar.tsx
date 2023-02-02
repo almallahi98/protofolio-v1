@@ -1,9 +1,12 @@
 import React, { useRef } from "react";
 import "../../../index.css";
-import Linkedin from '../../../assetes/linkedin-svgrepo-com.svg'
-import Github from '../../../assetes/git-svgrepo-com.svg'
+
+
 import Hamberger from '../../../assetes/menu-burger-horizontal-svgrepo-com.svg';
 import Close from '../../../assetes/close-svgrepo-com.svg'
+import Linkedin from "./Linkedin";
+import Git from "./Git";
+
 
 function Navbar() {
   const mobilMenu = useRef() as React.MutableRefObject<HTMLDivElement>;
@@ -21,7 +24,7 @@ function Navbar() {
   }
   return (
 
-    <div className="px-4 absolute top-0 right-0 left-0">
+    <div className="px-4 absolute top-0 right-0 left-0 md:mx-10">
       <div className="flex items-center justify-between space-x-16">
         <div className="flex items-center space-x-20">
           <a href="/">
@@ -47,18 +50,13 @@ function Navbar() {
             </a>
           </div>
         </div>
+
         <div className="hidden justify-between space-x-4 text-green-prim p-2 md:flex">
           <a href="/">
-            <div className="flex items-center">
-              <img src={Linkedin} alt='linkedin' className="w-7 h-7" />
-              <p className="uppercase ml-1 font-semibold">linledin</p>
-            </div>
+            <Linkedin/>
           </a>
           <a href="/">
-            <div className="flex items-center">
-              <img src={Github} alt='github' className="w-8 h8" />
-              <p className="uppercase ml-1 font-semibold">github</p>
-            </div>
+           <Git/>
           </a>
           <div className="border-2 border-green-prim rounded px-2 items-center">
             <p className="uppercase font-semibold pt-1">contact me</p>
@@ -72,10 +70,12 @@ function Navbar() {
         </div>
       </div>
       <div className="flex justify-end">
-        <div className="w-2/3  bg-gray-400 text-center text-lg py-2 italic hidden" ref={mobilMenu}>
-          <div className=""><a href="/">About</a></div>
-          <div className=""><a href="/">Skills</a></div>
-          <div className=""><a href="/">Project</a></div>
+        <div className="w-2/3 py-2 bg-gray-prim text-center text-lg italic rounded hidden" ref={mobilMenu}>
+          <div className="text-gray-300 border-b py-2"><a href="/">About</a></div>
+          <div className="text-gray-300 border-b py-2"><a href="/">Skills</a></div>
+          <div className="text-gray-300 border-b py-2"><a href="/">Project</a></div>
+          <div className="text-gray-300 border-b py-2 items-center"><Linkedin/></div>
+          <div className="text-gray-300 border-b py-2 items-center"><Git/></div>
         </div>
       </div>
     </div>

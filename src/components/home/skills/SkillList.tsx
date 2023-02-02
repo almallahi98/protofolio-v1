@@ -18,7 +18,7 @@ function SkillList() {
                 <span className='text-green-prim'>&lt;</span>Web development <span className='text-green-prim'>/&gt;</span></p>
             <p className='text-green-prim text-lg font-semibold italic'>
             &lt;<span className='text-gray-300'>front-end</span>&gt;</p> */}
-                    <div className="mt-2 p-4 grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-12 gap-10 md:gap-8  ">
+                    <div className="mt-2 p-4 grid grid-cols-3 md:grid-cols-12 lg:grid-cols-8 xl:grid-cols-12 gap-10 md:gap-8  ">
                         <Skill
                             img="https://www.svgrepo.com/show/353925/javascript.svg"
                             text="JavaScript"

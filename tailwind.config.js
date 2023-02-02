@@ -21,6 +21,7 @@ module.exports = {
     extend: {
       colors:{
         'green-prim':'#71ff00',
+        'gray-prim':'#4f4f4f'
       },
       backgroundImage: {
         'bg-gradient-prim': 'linear-gradient(318deg,rgba(128,128,128,1) -80%,  rgba(34,34,34,1) 55%);',
