@@ -6,7 +6,7 @@ function Traning(props: any) {
     return (
         <div className='p-6'>
             <HeaderText text='TRAINING COURSE' />
-            <div className='grid lg:grid-cols-3 gap-6 md:grid-cols-2'>
+            <div className='grid lg:grid-cols-3 gap-6 md:grid-cols-2 mt-6'>
             <Course
                 imgalt='dd'
                 img='https://avatars.githubusercontent.com/u/92674658?s=200&v=4'

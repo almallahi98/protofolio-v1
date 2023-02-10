@@ -2,7 +2,7 @@ import React from 'react'
 
 function Course(props:any) {
   return (
-    <div className='inline-flex bg-gray-prim p-4 hover:bg-[#222222] rounded shadow-lg'>
+    <div className='inline-flex bg-gray-prim p-4 hover:bg-[#222222] border-2 border-gray-300 border-opacity-0 hover:border-2 hover:border-green-prim  rounded shadow-lg'>
             <img src={props.img} alt={props.imgalt}
             className='max-h-[100px] max-w-[100px] border-gray-prim
              hover:border-gray-prim rounded-full border-2 shadow-2xl

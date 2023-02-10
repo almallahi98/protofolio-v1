@@ -12,7 +12,9 @@ function Hero() {
                     <p className="my-3 text-green-prim text-5xl font-bold">
                         &lt;Mohammed
                     </p>
-                    <p className="text-green-prim text-5xl font-bold">Al Mallahi /&gt;</p>
+                    <p className="text-green-prim text-5xl font-bold flex items-center">Al Mallahi 
+                    {/* <img src="/data/saudi-arabia.png" alt='ksa' className="w-10 h-10 mx-1"/> */}
+                     /&gt;</p>
                     <p className=" my-5 text-gray-300 font-semibold">
                         FULLSTACK DEVELOPER
                     </p>
@@ -38,8 +40,12 @@ function Hero() {
                         </div>
                     </div>
                 </div>
-                <div className="p-8 md:order-1">
-                    <img src="/data/Untitled-1.png" alt="5" />
+                <div className="relative md:order-1 bg-cover bg-center min-h-[500px]"
+                style={{backgroundImage:`url('/data/Untitled-1.png')`}}
+                >
+                    <img src="/data/saudi-arabia.png" alt="5" className="absolute bottom-5 right-5 w-28 h-28"/>
+                    
+                    
                 </div>
             </div>
             <div className="mt-2 p-8 grid sm:grid-cols-1 md:grid-cols-2">

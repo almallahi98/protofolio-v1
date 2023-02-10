@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Skill(props:any) {
+let Skill=(props:any)=> {
   return (
     <div className='flex flex-col items-center'>
         <img src={props.img} alt={props.text} 
@@ -11,5 +11,7 @@ function Skill(props:any) {
     </div>
   )
 }
+
+
 
 export default Skill
