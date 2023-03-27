@@ -6,7 +6,7 @@ import SkillList from './skills/SkillList'
 
 function Home() {
   return (
-    <div className='bg-gray-prim '>
+    <div className='bg-blue-prim '>
 
     
     <div className='bg-bg-gradient-prim pt-14 md:my-auto flex-col md:mx-10 shadow-2xl'>

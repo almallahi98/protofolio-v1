@@ -21,7 +21,10 @@ module.exports = {
     extend: {
       colors:{
         'green-prim':'#71ff00',
-        'gray-prim':'#4f4f4f'
+        'gray-prim':'#4f4f4f',
+        'gray-dark-prime':'#1E1F2B',
+        'blue-prim':'#05EDF6',
+        'gray-lightdark-prime':'#3A3F4E'
       },
       fontFamily: {
         FuzzyBubbles: ['Fuzzy Bubbles', 'cursive']
