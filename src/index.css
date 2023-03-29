@@ -1,4 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    p{
+        @apply font-Ubuntu text-blue-prim;
+    }
+    label{
+        @apply font-Ubuntu text-blue-prim mx-2 ;
+    }
+    input{
+        @apply rounded border-2 border-blue-prim;
+    }
+    button.btn-send{
+        @apply w-16 rounded bg-blue-prim text-lg text-white;
+    }
+
+    /* button.btn-send:hover{
+        @apply ;
+    } */
+}
