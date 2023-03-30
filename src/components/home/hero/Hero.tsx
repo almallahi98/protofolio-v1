@@ -8,10 +8,13 @@ function Hero() {
             {/* grid sm:grid-cols-1 md:grid-cols-2 */}
             <div className="grid sm:grid-cols-1 md:grid-cols-2">
                 <div className="p-8">
-                    <p className="my-4 text-gray-300 font-semibold font-FuzzyBubbles">Hellow, i am</p>
-                    <p className="text-blue-prim text-5xl md:text-9xl font-Ubuntu flex items-center">&lt;Mohammed Al Mallahi 
-                    {/* <img src="/data/saudi-arabia.png" alt='ksa' className="w-10 h-10 mx-1"/> */}
-                     /&gt;</p>
+                    {/* <p className="my-4 text-gray-300 font-semibold font-FuzzyBubbles">Hellow, i am</p> */}
+                    <p className="text-blue-prim 
+                    text-5xl
+                    md:text-8xl
+                    font-Ubuntu
+                    flex items-center">&lt;Mohammed Al Mallahi 
+                    /&gt;</p>
                     <p className=" my-5 text-gray-300 font-semibold">
                         
                     </p>

@@ -52,15 +52,11 @@ function Navbar() {
         </div>
 
         <div className="hidden justify-between space-x-4 text-green-prim p-2 md:flex">
-          <a href="/">
-            <Linkedin/>
-          </a>
-          <a href="/">
-           <Git/>
-          </a>
-          <div className="border-2 border-green-prim rounded px-2 items-center">
+        <Linkedin/>
+        <Git/>
+          {/* <div className="border-2 border-green-prim rounded px-2 items-center">
             <p className="uppercase font-semibold pt-1">contact me</p>
-          </div>
+          </div> */}
         </div>
         <div className="flex w-10 h-10 justify-end md:hidden lg:hidden xl:hidden 2xl:hidden"
          onClick={e=>{

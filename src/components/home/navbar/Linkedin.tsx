@@ -6,7 +6,7 @@ function Linkedin() {
     <div className="flex justify-center ">
               <div className='flex items-center'>
               <img src={LinkedinIcon} alt='linkedin' className="w-7 h-7" />
-              <p className="uppercase ml-1 font-semibold">linledin</p>
+              <p className="capitalize ml-1 font-semibold">linkedin</p>
               </div>
             </div>
             </a>

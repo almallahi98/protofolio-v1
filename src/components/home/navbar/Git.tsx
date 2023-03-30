@@ -8,7 +8,7 @@ function Git() {
     <div className="flex justify-center">
     <div className='flex items-center'>
     <img src={Github} alt='github' className="w-8 h8" />
-    <p className="uppercase ml-1 font-semibold">github</p>
+    <p className="capitalize ml-1 font-semibold">github</p>
     </div>
   </div>
   </a>

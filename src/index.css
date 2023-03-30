@@ -11,11 +11,15 @@
     label{
         @apply font-Ubuntu text-blue-prim mx-2 ;
     }
-    input{
-        @apply rounded border-2 border-blue-prim;
+    
+    textarea,input{
+        @apply rounded border-2 border-blue-prim focus:outline-none;
     }
     button.btn-send{
-        @apply w-16 rounded bg-blue-prim text-lg text-white;
+        @apply rounded bg-gradient-to-b from-blue-prim to-gray-dark-prime text-lg px-8 text-white;
+    }
+    button.btn-clear{
+        @apply rounded bg-gradient-to-b from-red-600 to-gray-dark-prime text-lg px-8 text-white;
     }
 
     /* button.btn-send:hover{
