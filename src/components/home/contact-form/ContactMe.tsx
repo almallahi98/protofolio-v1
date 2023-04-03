@@ -1,17 +1,22 @@
 import React, { FormEvent, useRef } from 'react'
+import { API } from '../../../helpers/AxiosConfig';
 import HeaderText from '../../genral/HeaderText'
 
 function ContactMe() {
     const message = useRef<HTMLTextAreaElement>(null)
     const email=useRef<HTMLInputElement>(null);
     const title= useRef<HTMLInputElement>(null);
-    const submitHandler=(e:FormEvent)=>{
+    const submitHandler=async (e:FormEvent)=>{
         e.preventDefault();
         console.log(message.current?.value);
         console.log(email.current?.value);
         console.log(title.current?.value);
         
-        
+        await API.post('d',
+        {
+            title:title.current?.value,
+            email:email.current?.value,
+            message:message.current?.value});
         
     }
   return (
