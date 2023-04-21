@@ -9,7 +9,7 @@
         @apply font-Ubuntu text-blue-prim;
     }
     label{
-        @apply font-Ubuntu text-blue-prim mx-2 ;
+        @apply font-Ubuntu text-blue-prim mx-2 text-lg pb-0 lg:pb-2 ;
     }
     
     textarea,input{
